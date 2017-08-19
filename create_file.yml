@@ -2,5 +2,4 @@
 - hosts: all
   tasks:
   - name: ensure apache is at the latest version
-    touch:
-      file: /tmp/abc.txt
+    command: touch /tmp/test.txt
